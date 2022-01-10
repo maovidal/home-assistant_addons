@@ -1,4 +1,4 @@
 # https://developers.home-assistant.io/docs/add-ons/repository#repository-configuration
-name: Home Assistant add-on repository
+name: MrMauro Home Assistant add-on repository
 url: 'https://github.com/MrMauro/home-assistant_addons'
 maintainer: Mauricio Vidal <please write to vidalastudillo at gmail>

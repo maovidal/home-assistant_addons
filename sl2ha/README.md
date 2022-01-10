@@ -14,4 +14,4 @@ _Mini Syslog Server that continuously performs a POST request to Home Assistant 
 [armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 
-Please check its [DOC](DOCS.md)
+Please check its [DOCS](DOCS.md)
