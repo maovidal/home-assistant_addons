@@ -1,0 +1,41 @@
+# https://developers.home-assistant.io/docs/add-ons/configuration#add-on-config
+name: "SL2HA add-on"
+version: "0.0.69"
+slug: sl2ha
+description: SL2HA add-on
+url: "https://github.com/MrMauro/home-assistant_addons/sl2ha"
+arch:
+  - armhf
+  - armv7
+  - aarch64
+  - amd64
+  - i386
+
+# Add-on will start after Home Assistant.
+startup: application
+
+# Syslog port as UDP.
+ports:
+  514/udp: 514
+ports_description:
+  514/udp: "Port to listen logs"
+
+# This add-on can access to the Home Assistant REST API proxy
+homeassistant_api: true
+
+options:
+  debug: false
+  endpoint_1: "states/input_boolean.doorman"
+  endpoint_2: "states/input_boolean.doorman"
+  to_seek_1: "[DAA]: FXO ring on"
+  to_seek_2: "[DAA]: FXO ring off"
+  payload_1: '{"state": "on"}'
+  payload_2: '{"state": "off"}'
+schema:
+  debug: bool
+  endpoint_1: str
+  endpoint_2: str
+  to_seek_1: str
+  to_seek_2: str
+  payload_1: str
+  payload_2: str
