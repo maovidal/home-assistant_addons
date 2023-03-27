@@ -1,7 +1,6 @@
 # https://developers.home-assistant.io/docs/add-ons/configuration#add-on-config
-init: false
 name: "SL2HA add-on"
-version: "0.1.0"
+version: "0.1.1"
 slug: sl2ha
 description: SL2HA add-on
 url: "https://github.com/MrMauro/home-assistant_addons/sl2ha"
@@ -11,7 +10,7 @@ arch:
   - aarch64
   - amd64
   - i386
-
+init: false
 # Add-on will start after Home Assistant.
 startup: application
 
