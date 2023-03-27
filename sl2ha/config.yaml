@@ -1,4 +1,5 @@
 # https://developers.home-assistant.io/docs/add-ons/configuration#add-on-config
+init: false
 name: "SL2HA add-on"
 version: "0.1.0"
 slug: sl2ha
